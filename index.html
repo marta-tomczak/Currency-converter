@@ -1,0 +1,63 @@
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prosty kalkulator walut</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./css/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+  <script defer src="./js/script.js"></script>
+</head>
+
+<body class="body">
+  <header class="header">
+  </header>
+  <main>
+    <form class="js-form form">
+      <h1 class="header__title">Kalkulator online</h1>
+      <label class="form__label">
+        <p>Wybierz walutę</p>
+        <select class="form__field js-currency">
+          <option value="4.7164">Euro (EUR)</option>
+          <option value="4.7202">Dolar Amerykański (USD)</option>
+          <option value="5.4412">Funt Szterling (GBP)</option>
+          <option value="4.9137">Frank Szwajcarski (CHF)</option>
+        </select>
+      </label>
+
+      <label class="form__label">
+        <p>Wpisz kwotę</p>
+        <input class="js-amount form__field" type="number" placeholder="Kwota" min="1" required />
+      </label>
+      <div class="form__buttons">
+        <button class="button" type="submit">Przelicz</button>
+        <button class="button js-count-reset" type="reset">Resetuj</button>
+      </div>
+      <b>Wynik w PLN <span class="js-result">0.00</span></b>
+    </form>
+    <div class="result">
+      <p>
+
+      </p>
+    </div>
+    <div class="information">
+
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p> <strong> Aktualne kursy walut na dzień 20.10.2022 według NBP: </strong> <br>
+      EURO (EUR): 4.7164 Dolar (USD): 4.7202 Funt (GBP): 5.4412 Frank
+      (CHF): 4.9137 </p>
+
+    <strong> Kalkulator walutowy. Wszystkie prawa zastrzeżone </strong>
+
+    </p>
+  </footer>
+</body>
+
+</html>
