@@ -2,7 +2,7 @@
 
 This is a currency calculator project.  The application will allow you to exchange PLN into EUR, USD, GBP or CHF.
 
-##Technologies used:
+## Technologies used:
 -	HTML
 -	CSS
 -	BEM
