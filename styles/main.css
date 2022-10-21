@@ -1,0 +1,101 @@
+/* GLOBAL */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat";
+  padding: 20px;
+  height: 100%;
+  background: url(https://previews.123rf.com/images/gkrphoto/gkrphoto1504/gkrphoto150400032/39142870-money-background-from-different-currency.jpg?fj=1) center / cover no-repeat;
+}
+
+.button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: royalblue;
+  border-radius: 12px;
+  margin: 20px;
+  padding: 8px 36px;
+  cursor: pointer;
+  transition: 250ms ease-in-out background-color;
+}
+
+.button:hover {
+  background-color: hsl(225, 73%, 67%);
+}
+
+/* HEADER */
+
+.header {
+  padding: 20px;
+}
+
+.header__title {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* FORM */
+.form {
+  padding: 10px;
+  border: 4px double black;
+  box-shadow: 8px 8px 40px;
+  background-color: white;
+}
+
+.form__label {
+  display: block;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.form__field {
+  padding: 8px 16px;
+  background-color: cornsilk;
+  border-radius: 12px;
+  border: 1px solid salmon;
+  outline: none;
+}
+
+.form__buttons {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.footer {
+  border: 3px groove black;
+  background-color: white;
+}
+
+/* RESULT */
+.result {
+  font-size: 25px;
+}
+
+/* INFORMATION */
+.information {
+  margin: 50px 20px;
+}
