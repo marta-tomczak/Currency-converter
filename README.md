@@ -8,7 +8,7 @@ Currently, I working on my JavaScript skills, I hope you will find here much muc
 
 ![Image of page](https://i.ibb.co/CzC6PS7/image.png) 
 
-### Technologies used:
+### Technologies used
 -	HTML
 -	CSS
 -	BEM
