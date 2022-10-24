@@ -1,5 +1,5 @@
 # Link
-My Currency converter [-> click me <-](https://marta-tomczak.github.io/Currency-converter/).
+My currency converter [-> click me <-](https://marta-tomczak.github.io/Currency-converter/).
 
 ## Currency converter
 
