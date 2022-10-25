@@ -1,11 +1,8 @@
-console.log("Hello World!");
-
 const currencyElement = document.querySelector(".js-currency");
 const amountElement = document.querySelector(".js-amount");
 const formElement = document.querySelector(".js-form");
 const resultElement = document.querySelector(".js-result");
-
-formElement.addEventListener("submit", (event) => {
+const countCurrency = (event) => {
   event.preventDefault();
 
   const currency = Number(currencyElement.value);
@@ -14,8 +11,14 @@ formElement.addEventListener("submit", (event) => {
   const result = amount * currency;
 
   resultElement.innerText = result.toFixed(2);
-});
-
-formElement.addEventListener("reset", (event) => {
+};
+const resetResult = () => {
   resultElement.innerText = Number(0).toFixed(2);
-});
+};
+const init = () => {
+  console.log("Hello World!");
+  formElement.addEventListener("submit", countCurrency);
+  formElement.addEventListener("reset", resetResult);
+};
+
+init();
